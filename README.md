@@ -3,9 +3,9 @@
 
 ## Pasos hardware
 
-Estuve barajando la MCP2515 y la SN65HVD230 para conectar al bus CAN. Creo que
-al final me hice con una MCP2515, pero no encuentro el hardware (cuando lo
-encuentre despejo esta duda y edito este archivo). 
+Estuve barajando entre el MCP2515 y el SN65HVD230 para conectar al bus CAN. El
+SN65HVD230 era mas barato (1 euro) pero lo descarté porque era demasiado low
+level. Usé un MCP2515 (5 euros), que daba las tramas CAN ya decodificadas.
 
 Ademas es necesario un arduino. En el arduino ide agregar la libreria
 arduino-CAN y flashear el ino, que es un CANReceiver tuneado.
